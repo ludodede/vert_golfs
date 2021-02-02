@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 100px;
+    color: teal;
+    text-align: center;
+    margin: auto;
+}
+
+img#main {
+    height: 300px;
+    width: 1000px;
+}
+
+.titre {
+    margin-top: 50px;
+}
+
+nav.menubare ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+nav.menubare ul li {
+    display: inline-block;
+}
+
+nav.menubare ul a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: darkslategray;
+    color: white;
+}
+
+nav.menubare ul img {
+    float: right;
+    height: 20px;
+    width: 20px;
+}
+
+nav.menubare ul li a:hover {
+    color: springgreen;
+    background-color: rgb(139, 0, 0);
+    transition: 5ms;
+}
+
+
+/*-----------------------------------------------------------*/
+
+.hello p {
+    margin-top: 30px;
+    padding-left: 10px;
+    padding: top 10px;
+}
+
+
+/*----------------------------------------------------------*/
+
+.souris img {
+    height: 600px;
+    width: 1500px;
+}
+
+
+/*-------------------------------------------*/
+
+.carte iframe {
+    height: 200px;
+    width: 400px;
+}
+
+.fumer p {
+    margin-top: -20px;
+}
+
+
+/*---------------------------------------------*/
+
+.lune iframe {
+    margin-left: 450px;
+    margin-top: -200px;
+}
